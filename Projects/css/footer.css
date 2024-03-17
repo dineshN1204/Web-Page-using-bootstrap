@@ -1,0 +1,56 @@
+#footer-bg {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+footer {
+    z-index: -1;
+    position: relative;
+}
+
+.image-hover img:hover{
+    filter: brightness(0.4);
+}
+
+.input-group{
+    width: 300px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+a-hover:hover{
+    color: blue !important;
+}
+
+.f-social-icons{
+    /* border-right: 2px solid gray; */
+    padding-top: 10px;
+    line-height: 1px;
+}
+
+.input-btn{
+    background-color: wheat;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.btn-input{
+    
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.refresher{
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0,0.5);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+

@@ -1,0 +1,273 @@
+.section-container-1 {
+    background-color: #f8f9fa;
+}
+
+.blog-bg{
+    background-color: #f8f9fa;
+}
+
+.home-insuracne-icon {
+    fill: blue;
+    stroke: blue;
+    stroke-width: 2px;
+}
+
+.arrow-icon {
+    fill: white;
+    stroke: white;
+}
+
+.custom-link-hover-effects:hover .animated {
+
+    transform: translateX(5px);
+    transition: ease;
+    transition-duration: 0.5;
+}
+
+.h4-hover:hover {
+    color: #0077b6;
+}
+
+.insurance-icons {
+    fill: #0077b6;
+    stroke: #0077b6;
+}
+
+.viewmore {
+    fill: #0077b6;
+}
+
+.custom-view-more {
+    color: #0077b6;
+    font-weight: 600;
+}
+
+
+
+.quote-div {
+    height: 500px;
+    width: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    left: 600px;
+}
+
+
+
+.center-div {
+    position: relative;
+
+}
+
+.pad {
+    /* margin: 15px; */
+    /* margin: 0px 40px; */
+}
+
+.porto {
+    z-index: 7;
+    background-color: white;
+}
+
+/* .btn-quote{
+    width: 30vw;
+} */
+
+.card {
+    /* width: 400px; */
+    background-color: #f8f9fa;
+}
+
+.text-hover:hover{
+    color: #0077b6;
+}
+
+.img-hover:hover{
+    filter: brightness(0.3);
+}
+
+
+
+.btn-btn {
+    /* background-color: white; */
+}
+
+/* .btn-btn:hover{
+    background-color: #edf2f4;
+    color: black;
+} */
+
+.get-started-btn {
+    /* height: 200px; */
+}
+
+.blue-div {
+    height: fit-content;
+    padding: 20px 0px;
+}
+
+.wrapping {
+    /* width: 40vw; */
+}
+
+
+.feb-18 {
+    background-color: #0077b6;
+    padding: 2px 4px;
+    bottom: 10%;
+    right: 20%;
+    line-height: 28px;
+
+
+
+}
+
+/* ---------------  Blog ----------------- */
+
+.card{
+    width: 100%;
+}
+
+/* ---------------  forms  ---------------- */
+
+.form-select:first-child {
+    border-radius: 18px 0 0 18px !important;
+}
+
+.form-div {
+    /* border: 2px solid #ffd8be; */
+    padding: 18px;
+    /* width: 500px; */
+    /* padding: 5px; */
+}
+
+.form-page {
+    border-radius: 18px;
+}
+
+.form-div form input {
+    /* min-width: 250px; */
+    border: none;
+    border-radius: 0 18px 18px 0 !important;
+    padding-left: 30px;
+}
+
+.form-div form input:active {
+    border: none;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.form-div select {
+    border: none;
+    border-right: #ffd8be solid 2px !important;
+}
+
+.form-div select option {
+    padding: 10px;
+}
+
+.forms {
+    text-align: center;
+}
+
+.form-bottom {
+    display: flex;
+    height: 120px;
+    min-width: 280px;
+    /* width: 463px; */
+    background-color: #0077b6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-bottom a {
+    color: white;
+}
+
+
+/* media qeries for responsiveness */
+
+/* smart devices */
+@media screen and(max-width:425px) {
+    .wrap1 {
+        text-wrap: wrap;
+        width: 40rem;
+    }
+
+    .insurance{
+        margin: auto;
+    }
+
+}
+
+/* mobiles */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .wrapping {
+        text-align: center;
+        width: 60vw;
+        padding: 5px;
+    }
+
+    .wrap1 {
+        text-align: center !important;
+        width: 55vw;
+        /* flex-wrap: wrap; */
+    }
+
+    .insurance{
+        justify-content: center;
+        margin: auto;
+    }
+
+}
+
+/* tab */
+@media screen and (min-width:769px) and (max-width:992px) {
+    .wrapping {
+        text-align: center !important;
+        width: 65vw;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 992px) and (max-width:1024px) {
+    .wrap1 {
+        width: 80vw;
+        text-align: center;
+        justify-items: center;
+        padding: 10px !important;
+
+    }
+    /* .home-insurance{
+        margin-left: 70px;
+    } */
+    .insurance{
+        margin-left: 45px;
+    }
+
+    .wrap-1 {
+        width: 20vw;
+        justify-self: center;
+        padding-left: 30px;
+    }
+
+    .women-png{
+        height: 500px;
+        width: 500px;
+        top: 60px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .wrap-1{
+        width: 20vw;
+    }
+    
+}

@@ -1,0 +1,209 @@
+
+
+/* --------------  Header  --------------- */
+
+
+a{
+    color: black;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    max-width: 100%;
+    min-height: 80px;
+    padding-left: 64px;
+    padding-right: 75px;
+}
+
+.nav-btn{
+    top: 30%;
+    right: 5%;
+}
+
+
+#home-blue {
+    color: blue !important;
+}
+
+#about-us-blue{
+    color: blue !important;
+}
+
+#contact-blue{
+    color: blue !important;
+}
+
+.navbar ul li a:hover {
+    color: blue !important;
+}
+
+li a {
+    color: black !important;
+}
+
+.navbar .text-blue:hover {
+    color: #4285f4;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    color: gray;
+    border-bottom: #4285f4 2px solid;
+
+}
+
+.dropdown-menu li {
+    padding-left: 13px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    color: gray;
+    line-height: 30px;
+    border-bottom: 1px solid;
+    border-radius: 3px;
+
+}
+
+.dropdown-menu li:first-child {
+    border-top: blue 5px solid;
+}
+
+.dropdown .dropdown-menu li:hover {
+    background-color: #f8f9fa;
+    color: black;
+    cursor: pointer;
+}
+
+.fa-magnifying-glass:hover {
+    color: blue;
+}
+
+.social-icons {
+    /* border-right: 2px solid gray; */
+    padding-top: 10px;
+    /* padding-right: 10px; */
+    line-height: 1px;
+}
+
+.fa-brands {
+    margin: auto;
+    padding: 10px;
+    /* margin-top: 10px; */
+    border-radius: 50%;
+
+}
+
+.fa-facebook-f {
+    line-height: 1;
+}
+
+.fa-instagram:hover {
+    color: white;
+    background: #bc6c25;
+    /* padding: 10px; */
+    border-radius: 50%;
+    transition: all .3s ease-out;
+}
+
+.fa-twitter:hover {
+    color: white;
+    background-color: #48cae4;
+    border-radius: 50%;
+    transition: all .3s ease-out;
+}
+
+.fa-facebook-f:hover {
+    color: white;
+    background-color: #4285f4;
+    transition: all .3s ease-out;
+
+}
+
+#number:hover .number {
+    color: #4285f4;
+    font-weight: bold;
+}
+
+.number {
+    margin-right: 2px;
+}
+
+.magnifier:hover .fa-magnifying-glass,
+.search {
+    color: blue !important;
+}
+
+
+
+/*  ----------------- Section 1 Women -------------- */
+
+.custom-big-text-1 {
+    margin-left: -65px;
+    font-size: 22vh;
+    color: white;
+    text-align: start;
+    /* position: relative; */
+    /* top: -940px;
+    left: -100px; */
+    /* top: -70px;
+    left: -100px; */
+    font-weight: 700;
+    z-index: 1;
+}
+
+.women-png {
+    z-index: 3;
+    top: 1%;
+    width: 40%;
+}
+
+.a-women-png{
+    z-index: 0;
+    overflow:hidden;
+}
+
+.section-div-1 {
+    float: left;
+    bottom: 900px;
+}
+
+.h2-h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-wrap: wrap;
+}
+
+.para {
+    font-size: large;
+    font-weight: 600;
+    text-wrap: nowrap;
+}
+
+.ul-list {
+    font-size: 500%;
+    left: 700px;
+    margin-left: 370px;
+    /* bottom: 400px; */
+}
+
+.section-div-1 {
+    bottom: 50%;
+}
+
+.home {
+    right: 20px;
+}
+
+.div2 {
+    margin-left: 150px;
+    margin-top: 40px;
+    text-wrap: nowrap;
+}
+
+.btn-get-started:hover {
+
+    cursor: pointer;
+    background-color: rgb(19, 101, 223);
+}
